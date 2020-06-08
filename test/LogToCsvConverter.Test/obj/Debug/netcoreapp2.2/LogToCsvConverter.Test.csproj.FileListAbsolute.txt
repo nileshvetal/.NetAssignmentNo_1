@@ -1,0 +1,14 @@
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\LogToCsvConverter.Test.deps.json
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\LogToCsvConverter.Test.runtimeconfig.json
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\LogToCsvConverter.Test.runtimeconfig.dev.json
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\LogToCsvConverter.Test.dll
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\LogToCsvConverter.Test.pdb
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.csprojAssemblyReference.cache
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.csproj.CoreCompileInputs.cache
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.AssemblyInfoInputs.cache
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.AssemblyInfo.cs
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.dll
+D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.pdb
