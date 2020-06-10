@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System;
+using System.IO;
 
 namespace logtocsvconverter
 {
@@ -27,7 +28,7 @@ namespace logtocsvconverter
                 {
                     case "--log-dir":
                         if (!commands[index + 1].Contains("\\"))
-                            throw new ArgumentException("Please provide correct path");
+                            Console.WriteLine("Please provide correct path");
 
                         LogDir = commands[index + 1];
                         break;
@@ -35,14 +36,19 @@ namespace logtocsvconverter
                     case "--log-level":
                         if (!(commands[index + 1].ToLower().Equals("trace") || commands[index + 1].ToLower().Equals("info")
                                 || commands[index + 1].ToLower().Equals("warn") || commands[index + 1].ToLower().Equals("debug")))
-                            throw new ArgumentException("Please provode correct log level");
-
+                            Console.WriteLine("Please provode correct log level");
                         LogLevels.Add(commands[index + 1]);
                         break;
 
                     case "--csv":
                         if (!commands[index + 1].Contains("\\"))
-                            throw new FormatException("Please provide correct path formate");
+                            Console.WriteLine("Please provide correct path formate");
+
+                        if (!Directory.Exists(commands[index + 1]))
+                        {
+                            Console.WriteLine("Please provide correct output path");
+                        }
+
                         OutPath = commands[index + 1];
                         break;
 

@@ -10,9 +10,8 @@ namespace logtocsvconverter
         static void Main(string[] args)
         {
             Console.WriteLine("Enter command");
-            // var inputCommand = Console.ReadLine();
-            // var commands = inputCommand.Split(" ");
-            var commands = args;
+            var inputCommand = Console.ReadLine();
+            var commands = inputCommand.Split(" ");
 
             if (!ValidateCommand(string.Join(" ", commands)))
             {
@@ -28,8 +27,9 @@ namespace logtocsvconverter
 
             var csvFormats = LogToCSV(log);
 
-            WriteToCSVFile(csvFormats);
+            WriteToCSVFile(csvFormats, inputArguments.OutPath);
 
+            Console.WriteLine("Successfully converted log file to csv file");
 
         }
 
@@ -75,12 +75,13 @@ namespace logtocsvconverter
             return csvFormats;
         }
 
-        public static void WriteToCSVFile(List<CSVFormat> csvFormats)
+        public static void WriteToCSVFile(List<CSVFormat> csvFormats, string outPath)
         {
+            var csvFile = outPath + "\\sortedLog.csv";
             csvFormats = csvFormats.OrderBy(csv => csv.Level).ToList();
             foreach (var csvFormat in csvFormats)
             {
-                using (var writer = File.AppendText("..\\..\\Logs\\sortedLog.csv"))
+                using (var writer = File.AppendText(csvFile))
                 {
                     writer.WriteLine(csvFormat.Number + "," + csvFormat.Level
                                     + "," + csvFormat.Date + "," + csvFormat.Time + "," + csvFormat.Text);

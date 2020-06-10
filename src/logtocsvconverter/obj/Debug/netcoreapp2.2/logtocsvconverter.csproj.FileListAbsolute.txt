@@ -9,3 +9,14 @@ D:\Training\.NET Training\logtocsvconverter\src\logtocsvconverter\obj\Debug\netc
 D:\Training\.NET Training\logtocsvconverter\src\logtocsvconverter\obj\Debug\netcoreapp2.2\logtocsvconverter.AssemblyInfo.cs
 D:\Training\.NET Training\logtocsvconverter\src\logtocsvconverter\obj\Debug\netcoreapp2.2\logtocsvconverter.dll
 D:\Training\.NET Training\logtocsvconverter\src\logtocsvconverter\obj\Debug\netcoreapp2.2\logtocsvconverter.pdb
+D:\Training\.NetAssignmentNo_1\src\logtocsvconverter\bin\Debug\netcoreapp2.2\logtocsvconverter.deps.json
+D:\Training\.NetAssignmentNo_1\src\logtocsvconverter\bin\Debug\netcoreapp2.2\logtocsvconverter.runtimeconfig.json
+D:\Training\.NetAssignmentNo_1\src\logtocsvconverter\bin\Debug\netcoreapp2.2\logtocsvconverter.runtimeconfig.dev.json
+D:\Training\.NetAssignmentNo_1\src\logtocsvconverter\bin\Debug\netcoreapp2.2\logtocsvconverter.dll
+D:\Training\.NetAssignmentNo_1\src\logtocsvconverter\bin\Debug\netcoreapp2.2\logtocsvconverter.pdb
+D:\Training\.NetAssignmentNo_1\src\logtocsvconverter\obj\Debug\netcoreapp2.2\logtocsvconverter.csprojAssemblyReference.cache
+D:\Training\.NetAssignmentNo_1\src\logtocsvconverter\obj\Debug\netcoreapp2.2\logtocsvconverter.csproj.CoreCompileInputs.cache
+D:\Training\.NetAssignmentNo_1\src\logtocsvconverter\obj\Debug\netcoreapp2.2\logtocsvconverter.AssemblyInfoInputs.cache
+D:\Training\.NetAssignmentNo_1\src\logtocsvconverter\obj\Debug\netcoreapp2.2\logtocsvconverter.AssemblyInfo.cs
+D:\Training\.NetAssignmentNo_1\src\logtocsvconverter\obj\Debug\netcoreapp2.2\logtocsvconverter.dll
+D:\Training\.NetAssignmentNo_1\src\logtocsvconverter\obj\Debug\netcoreapp2.2\logtocsvconverter.pdb

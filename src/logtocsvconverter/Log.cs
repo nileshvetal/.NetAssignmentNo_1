@@ -16,8 +16,8 @@ namespace logtocsvconverter
 
         public void ReadLines(string path, List<string> levels)
         {
-            if (Directory.Exists(path))
-                throw new DirectoryNotFoundException("Please provide correct direct path");
+            if (!Directory.Exists(path))
+                Console.WriteLine("Please provide correct direct path");
 
             string[] files;
             try
@@ -26,6 +26,7 @@ namespace logtocsvconverter
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 throw ex;
             }
 

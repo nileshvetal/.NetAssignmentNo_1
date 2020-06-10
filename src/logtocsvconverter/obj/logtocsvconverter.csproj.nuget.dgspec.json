@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Training\\.NET Training\\logtocsvconverter\\src\\logtocsvconverter\\logtocsvconverter.csproj": {}
+    "D:\\Training\\.NetAssignmentNo_1\\src\\logtocsvconverter\\logtocsvconverter.csproj": {}
   },
   "projects": {
-    "D:\\Training\\.NET Training\\logtocsvconverter\\src\\logtocsvconverter\\logtocsvconverter.csproj": {
+    "D:\\Training\\.NetAssignmentNo_1\\src\\logtocsvconverter\\logtocsvconverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Training\\.NET Training\\logtocsvconverter\\src\\logtocsvconverter\\logtocsvconverter.csproj",
+        "projectUniqueName": "D:\\Training\\.NetAssignmentNo_1\\src\\logtocsvconverter\\logtocsvconverter.csproj",
         "projectName": "logtocsvconverter",
-        "projectPath": "D:\\Training\\.NET Training\\logtocsvconverter\\src\\logtocsvconverter\\logtocsvconverter.csproj",
+        "projectPath": "D:\\Training\\.NetAssignmentNo_1\\src\\logtocsvconverter\\logtocsvconverter.csproj",
         "packagesPath": "C:\\Users\\nileshv\\.nuget\\packages\\",
-        "outputPath": "D:\\Training\\.NET Training\\logtocsvconverter\\src\\logtocsvconverter\\obj\\",
+        "outputPath": "D:\\Training\\.NetAssignmentNo_1\\src\\logtocsvconverter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
