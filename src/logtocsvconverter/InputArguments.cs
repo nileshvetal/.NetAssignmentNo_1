@@ -4,7 +4,7 @@ using System.IO;
 
 namespace logtocsvconverter
 {
-    class InputArguments
+    public class InputArguments
     {
         public InputArguments()
         {

@@ -1,6 +1,6 @@
 namespace logtocsvconverter
 {
-    class CSVFormat
+    public class CSVFormat
     {
         public CSVFormat()
         {

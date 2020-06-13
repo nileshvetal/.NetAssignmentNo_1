@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/src/logtocsvconverter/bin/Debug/netcoreapp2.2/logtocsvconverter.dll",
-            "args": ["--log-dir", "..\\..\\Logs", "--log-level", "gffhgf", "--csv", "out", "--log-level", "Warn"],
+            "args": ["--log-dir ..\\..\\Logs --log-level Info --csv ..\\Logs --log-level Warn"],
             "cwd": "${workspaceFolder}/src/logtocsvconverter",
             "console": "internalConsole",
             "stopAtEntry": false

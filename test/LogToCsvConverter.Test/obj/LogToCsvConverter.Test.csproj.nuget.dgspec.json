@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Training\\.NET Training\\logtocsvconverter\\test\\LogToCsvConverter.Test\\LogToCsvConverter.Test.csproj": {}
+    "D:\\Training\\.NetAssignmentNo_1\\test\\LogToCsvConverter.Test\\LogToCsvConverter.Test.csproj": {}
   },
   "projects": {
-    "D:\\Training\\.NET Training\\logtocsvconverter\\test\\LogToCsvConverter.Test\\LogToCsvConverter.Test.csproj": {
+    "D:\\Training\\.NetAssignmentNo_1\\src\\logtocsvconverter\\logtocsvconverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Training\\.NET Training\\logtocsvconverter\\test\\LogToCsvConverter.Test\\LogToCsvConverter.Test.csproj",
-        "projectName": "LogToCsvConverter.Test",
-        "projectPath": "D:\\Training\\.NET Training\\logtocsvconverter\\test\\LogToCsvConverter.Test\\LogToCsvConverter.Test.csproj",
+        "projectUniqueName": "D:\\Training\\.NetAssignmentNo_1\\src\\logtocsvconverter\\logtocsvconverter.csproj",
+        "projectName": "logtocsvconverter",
+        "projectPath": "D:\\Training\\.NetAssignmentNo_1\\src\\logtocsvconverter\\logtocsvconverter.csproj",
         "packagesPath": "C:\\Users\\nileshv\\.nuget\\packages\\",
-        "outputPath": "D:\\Training\\.NET Training\\logtocsvconverter\\test\\LogToCsvConverter.Test\\obj\\",
+        "outputPath": "D:\\Training\\.NetAssignmentNo_1\\src\\logtocsvconverter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -28,6 +28,60 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Training\\.NetAssignmentNo_1\\test\\LogToCsvConverter.Test\\LogToCsvConverter.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Training\\.NetAssignmentNo_1\\test\\LogToCsvConverter.Test\\LogToCsvConverter.Test.csproj",
+        "projectName": "LogToCsvConverter.Test",
+        "projectPath": "D:\\Training\\.NetAssignmentNo_1\\test\\LogToCsvConverter.Test\\LogToCsvConverter.Test.csproj",
+        "packagesPath": "C:\\Users\\nileshv\\.nuget\\packages\\",
+        "outputPath": "D:\\Training\\.NetAssignmentNo_1\\test\\LogToCsvConverter.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nileshv\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Training\\.NetAssignmentNo_1\\src\\logtocsvconverter\\logtocsvconverter.csproj": {
+                "projectPath": "D:\\Training\\.NetAssignmentNo_1\\src\\logtocsvconverter\\logtocsvconverter.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

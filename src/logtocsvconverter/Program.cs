@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace logtocsvconverter
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -33,7 +33,7 @@ namespace logtocsvconverter
 
         }
 
-        private static bool ValidateCommand(string command)
+        public static bool ValidateCommand(string command)
         {
             var isValid = true;
             if (!command.Contains("--log-dir") || !command.Contains("--csv"))
@@ -42,7 +42,7 @@ namespace logtocsvconverter
             return isValid;
         }
 
-        private static List<CSVFormat> LogToCSV(Log log)
+        public static List<CSVFormat> LogToCSV(Log log)
         {
             var csvFormats = new List<CSVFormat>();
             int index = 0;
@@ -54,7 +54,7 @@ namespace logtocsvconverter
 
                 var lineAfterSplit = line.Split(":.");
 
-                var dateString = lineAfterSplit[0].Split(" ")[0] + "/2020 " + lineAfterSplit[0].Split(" ")[1];
+                var dateString = lineAfterSplit[0].Trim().Split(" ")[0] + "/2020 " + lineAfterSplit[0].Trim().Split(" ")[1];
                 try
                 {
                     dateValue = DateTime.Parse(dateString);
@@ -66,8 +66,8 @@ namespace logtocsvconverter
 
                 csvformate.Date = string.Format("{0:dd MMM yyyy}", dateValue);
                 csvformate.Time = dateValue.ToShortTimeString();
-                csvformate.Level = lineAfterSplit[0].Split(" ")[2];
-                csvformate.Text = lineAfterSplit[1].Replace("..", "").Replace(", ", ",");
+                csvformate.Level = lineAfterSplit[0].Trim().Split(" ")[2];
+                csvformate.Text = lineAfterSplit[1].Trim().Replace(".", "").Replace(", ", ",");
                 csvformate.Number = ++index;
                 csvFormats.Add(csvformate);
             }

@@ -1680,6 +1680,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "logtocsvconverter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/logtocsvconverter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/logtocsvconverter.dll": {}
+        }
       }
     }
   },
@@ -5849,12 +5859,18 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "logtocsvconverter/1.0.0": {
+      "type": "project",
+      "path": "../../src/logtocsvconverter/logtocsvconverter.csproj",
+      "msbuildProject": "../../src/logtocsvconverter/logtocsvconverter.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
+      "logtocsvconverter >= 1.0.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
@@ -5866,11 +5882,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Training\\.NET Training\\logtocsvconverter\\test\\LogToCsvConverter.Test\\LogToCsvConverter.Test.csproj",
+      "projectUniqueName": "D:\\Training\\.NetAssignmentNo_1\\test\\LogToCsvConverter.Test\\LogToCsvConverter.Test.csproj",
       "projectName": "LogToCsvConverter.Test",
-      "projectPath": "D:\\Training\\.NET Training\\logtocsvconverter\\test\\LogToCsvConverter.Test\\LogToCsvConverter.Test.csproj",
+      "projectPath": "D:\\Training\\.NetAssignmentNo_1\\test\\LogToCsvConverter.Test\\LogToCsvConverter.Test.csproj",
       "packagesPath": "C:\\Users\\nileshv\\.nuget\\packages\\",
-      "outputPath": "D:\\Training\\.NET Training\\logtocsvconverter\\test\\LogToCsvConverter.Test\\obj\\",
+      "outputPath": "D:\\Training\\.NetAssignmentNo_1\\test\\LogToCsvConverter.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5886,7 +5902,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Training\\.NetAssignmentNo_1\\src\\logtocsvconverter\\logtocsvconverter.csproj": {
+              "projectPath": "D:\\Training\\.NetAssignmentNo_1\\src\\logtocsvconverter\\logtocsvconverter.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

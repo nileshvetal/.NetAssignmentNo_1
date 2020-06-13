@@ -4,7 +4,7 @@ using System.IO;
 
 namespace logtocsvconverter
 {
-    class Log
+    public class Log
     {
         public Log()
         {

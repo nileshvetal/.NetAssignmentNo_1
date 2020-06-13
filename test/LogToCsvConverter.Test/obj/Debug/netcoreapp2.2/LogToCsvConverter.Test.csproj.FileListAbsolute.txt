@@ -12,3 +12,20 @@ D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\obj\Debu
 D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.AssemblyInfo.cs
 D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.dll
 D:\Training\.NET Training\logtocsvconverter\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.pdb
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\LogToCsvConverter.Test.deps.json
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\LogToCsvConverter.Test.runtimeconfig.json
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\LogToCsvConverter.Test.runtimeconfig.dev.json
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\LogToCsvConverter.Test.dll
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\LogToCsvConverter.Test.pdb
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\logtocsvconverter.dll
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\bin\Debug\netcoreapp2.2\logtocsvconverter.pdb
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.csprojAssemblyReference.cache
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.csproj.CoreCompileInputs.cache
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.AssemblyInfoInputs.cache
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.AssemblyInfo.cs
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.csproj.CopyComplete
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.dll
+D:\Training\.NetAssignmentNo_1\test\LogToCsvConverter.Test\obj\Debug\netcoreapp2.2\LogToCsvConverter.Test.pdb
