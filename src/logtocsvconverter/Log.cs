@@ -22,12 +22,11 @@ namespace logtocsvconverter
             string[] files;
             try
             {
-                files = Directory.GetFiles(path, "*.log");
+                files = Directory.GetFiles(path, "*.log", SearchOption.AllDirectories);
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                throw ex;
             }
 
             var line = "";
