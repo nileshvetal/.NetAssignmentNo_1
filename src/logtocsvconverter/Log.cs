@@ -27,6 +27,7 @@ namespace logtocsvconverter
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                throw ex;
             }
 
             var line = "";
