@@ -78,6 +78,7 @@ namespace logtocsvconverter
         public static void WriteToCSVFile(List<CSVFormat> csvFormats, string outPath)
         {
             var csvFile = outPath + "\\sortedLog.csv";
+            DeleteLeaveFiles(outPath);
             csvFormats = csvFormats.OrderBy(csv => csv.Level).ToList();
             foreach (var csvFormat in csvFormats)
             {
@@ -89,5 +90,14 @@ namespace logtocsvconverter
             }
         }
 
+        private static void DeleteLeaveFiles(string outPath)
+        {
+            var csvFiles = Directory.GetFiles(outPath, "*.csv", SearchOption.TopDirectoryOnly);
+
+            foreach (var file in csvFiles)
+            {
+                File.Delete(file);
+            }
+        }
     }
 }
